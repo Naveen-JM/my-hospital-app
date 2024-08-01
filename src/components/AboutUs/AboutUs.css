@@ -1,0 +1,46 @@
+/* AboutUs.css */
+
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-us-header h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline; /* Add underline to titles */
+}
+
+.about-us-header p {
+  font-size: 14px;
+  color: #666;
+}
+
+.about-us-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline; /* Add underline to titles */
+}
+
+.about-us-content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-us-content ul {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.about-us-content ul li {
+  margin-bottom: 5px;
+  text-align: center;
+}

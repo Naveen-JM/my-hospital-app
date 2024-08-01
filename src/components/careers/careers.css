@@ -1,0 +1,104 @@
+.background-image-heading {
+    background-image: url(../../images/img3.jpg);
+    background-size: cover; /* Adjust 'cover' to other values like 'contain' */
+    background-position: left;
+    color: #f7f1f1;
+    padding: 200px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.careers-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Job opening styling */
+.job-opening {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.job-opening h4 {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    margin-top: 0;
+}
+
+.job-details {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    margin-bottom: 20px;
+}
+
+.detail {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    margin-bottom: 10px;
+}
+
+.detail h6 {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    margin-bottom: 5px;
+    color: #3b3b3c; /* Department color */
+}
+
+.detail p {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    color: #3b3b3c; /* Qualification color */
+}
+
+.apply-btn {
+    background-color: #0f1044;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #0056b3;
+}
+
+.quotes-box {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.quote {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    width: 45%; /* Adjust width as needed */
+    background-color: #bbbbc3;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adjust border radius to make it more square */
+}
+
+.quote p {
+    font-family: 'Montserrat', 'Helvetica Neue';
+}
+
+.quote p:first-child {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    margin-bottom: 5px;
+}
+
+.join-us-title {
+    font-family: 'Montserrat', 'Helvetica Neue';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-background {
+    background: rgb(79, 170, 213);
+    background: linear-gradient(135deg, rgba(79, 170, 213, 1) 35%, rgba(87, 202, 106, 1) 86%);
+}
+.jp{
+    font-family: 'Montserrat', 'Helvetica Neue';
+    font-size: 18px;
+}

@@ -1,0 +1,46 @@
+/* records.module.css */
+/* records.module.css */
+
+.my-background {
+  background: url(../../images/doctors1.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  height: calc(100vh - 60px); /* Set height to fill the viewport minus the height of the navbar */
+  margin-top: 0; /* Remove any existing top margin */
+  padding-top: 60px; /* Add padding to compensate for the navbar height */
+  color: whitesmoke; /* Set text color to white */
+}
+
+.box {
+  width: calc(30% - 40px); /* Adjust width of each box to fit three boxes in a row with space between them */
+  height: 200px; /* Adjust height of each box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, rgba(24,78,104, 0.8), rgba(87,202,133, 0.8)); /* Set border color */
+  border-radius: 10px;
+  display: inline-block; /* Display boxes inline */
+  margin: 20px; /* Add more space around each box */
+  padding: 20px; /* Add padding inside each box */
+  box-sizing: border-box; /* Include padding in box size */
+  vertical-align: top; /* Align boxes at the top */
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+.p{
+  color: aliceblue;
+  font-size: 24px;
+}
+

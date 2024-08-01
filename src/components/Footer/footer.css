@@ -1,0 +1,64 @@
+/* footer.css */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  width:1480px; /* Add margin to create space between footer and boxes */
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.left-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.line {
+  width: 1px; /* Width of the line */
+  height: 100%;
+  background-color: #ffffff; /* Color of the line */
+  margin-right: 20px; /* Margin between the line and social icons */
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align:left;
+}
+
+.terms-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center align the terms list */
+}
+
+.terms-list li {
+  margin-bottom: 5px;
+  text-align: left; /* Reset text alignment for list items */
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}

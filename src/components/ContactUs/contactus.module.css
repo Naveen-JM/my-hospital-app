@@ -1,0 +1,48 @@
+/* styles.module.css */
+
+
+  .form-container {
+    color: aliceblue;
+    max-width: 400px;
+    margin: 20px auto; /* Added 20px margin on top and bottom */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgb(20,72,96);
+background: linear-gradient(135deg, rgba(20, 72, 96, 0.758) 55%, rgba(87, 202, 106, 0.818) 82%); /* Add background color with transparency */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: calc(100% - 20px); /* Reduce width by 20px */
+    padding: 8px; /* Reduce padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group textarea {
+    height: 80px; /* Reduce height of textarea */
+  }
+  
+  .btn {
+    font-family: "Montserrat";
+    background-color: #1a5989;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ .btn:hover {
+    background-color: #0a2849;
+  }
+  

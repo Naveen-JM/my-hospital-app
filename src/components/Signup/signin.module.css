@@ -1,0 +1,91 @@
+/* signin.module.css */
+
+.signinContainer {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, rgba(24,78,104,0.8) 65%, rgba(87,202,133,1) 98%);
+  height: 400px;
+}
+
+.signinForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.signinInput {
+  width: 100%;
+  padding: 8px;
+  margin-top:20px ;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signinbutton {
+  background-color: #131c6b;
+  color: #fff;
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.signinbutton:hover {
+  background-color: #1a6aba;
+}
+
+.signoutButton {
+  background-color: #c12a2a;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom:50px; /* Adjust margin to match the layout */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.signoutButton:hover {
+  background-color: #e13131;
+}
+
+.errorMessage {
+  color: rgb(233, 221, 221);
+  margin-top: 10px;
+}
+
+.h3{
+  color: #fff;
+  bottom: 20px;
+}
+
+.mybackground {
+  margin:0px;
+  background-image: url('../../images/doctors1.jpg');
+  background-size: cover;
+  background-position: center;
+  height:calc(100vh - 60px);
+  margin-top: 0;
+  padding-top: 60px;
+}
+
+.signedInMessage {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+.soutp{
+  color: #fff;
+}
+
+.lks{
+  color: #fff;
+  margin-left: 10px;
+}

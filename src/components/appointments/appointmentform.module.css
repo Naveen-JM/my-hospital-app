@@ -1,0 +1,97 @@
+/* appointmentform.module.css */
+
+/* Background styling */
+.MyBackground {
+  background-color: #8EC5FC;
+  background: url(./appointments.jpg); /* Image URL */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container styling */
+.appointment-form-container {
+  width: 90%;
+  max-width: 600px;
+  padding-top: 60px;
+  color: azure;
+  margin: 20px auto; /* Center the form container */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(24, 77, 104, 0.8);
+  background: linear-gradient(135deg, rgba(24,78,104,0.8) 65%, rgba(87,202,133,1) 98%);
+  margin-bottom: 80px; /* Ensure space below the form container for the footer */
+}
+
+/* Heading styling */
+.appointment-form-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.appointment-form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Input field styling */
+.appointment-form-container input[type="text"],
+.appointment-form-container input[type="datetime-local"],
+.appointment-form-container textarea,
+.appointment-form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.appointment-form-container button[type="submit"] {
+  background-color: #032952;
+  width : 250px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Montserrat";
+}
+
+.appointment-form-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.appointment-form-container .error {
+  color: rgb(254, 251, 251);
+  margin-top: 10px;
+}
+
+/* Patient data styling */
+.appointment-form-container .patientData {
+  margin-top: 20px;
+}
+
+/* Status field styling */
+.appointment-form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* Additional spacing for better readability */
+.appointment-form-container br {
+  display: none;
+}

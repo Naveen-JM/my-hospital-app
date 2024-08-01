@@ -1,0 +1,80 @@
+/* Container styling */
+.myBackground {
+  background: url(../../images/patients.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  height: calc(100vh - 60px); /* Set height to fill the viewport minus the height of the navbar */
+  margin-top: 0; /* Remove any existing top margin */
+  padding-top: 60px; /* Add padding to compensate for the navbar height */
+  color: whitesmoke; /* Set text color to white */
+}
+
+/* Form styling */
+.patient-form-container {
+  color: azure;
+  max-width: 600px; /* Increased container width */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(24, 77, 104, 0.8); /* Adjust the opacity (0.8 in this case) */
+  background: linear-gradient(135deg, rgba(24, 78, 104, 0.8) 65%, rgba(87, 202, 133, 1) 98%); /* Ensure gradient also has same opacity */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.patient-form-container label {
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+.patient-form-container input[type="text"],
+.patient-form-container input[type="number"],
+.patient-form-container input[type="date"] {
+  width: 100%; /* Make all input fields same width */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Gender dropdown styling */
+.patient-form-container select {
+  width: 100%; /* Make the dropdown full width */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* White background for the dropdown */
+  color: #000; /* Black text color for readability */
+  font-family: "Montserrat"; /* Ensure consistent font family */
+}
+
+/* Button styling */
+.patient-form-container button[type="submit"] {
+  margin-top: 20px;
+  background-color: #032952;
+  width: 250px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  margin: 0 auto; /* Add this to center the button horizontally */
+  display: block; /* Ensure button takes full width of its container */
+}
+
+.patient-form-container button[type="submit"]:hover {
+  font-family: "Montserrat";
+  background-color: #0056b3;
+}

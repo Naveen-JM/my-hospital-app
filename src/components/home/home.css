@@ -1,0 +1,42 @@
+/* home.css */
+
+/* Styles for the home component */
+.home {
+  text-align: center;
+}
+
+
+/*styles for the boxes on home page*/
+.box {
+  width: calc(30% - 20px); /* Adjust width of each box to fit three boxes in a row with space between them */
+  height: 150px; /* Adjust height of each box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #184E68, #57CA85); /* Set border color */
+  border-radius: 10px;
+  display: inline-block; /* Display boxes inline */
+  margin: 20px; /* Add more space around each box */
+  padding: 20px; /* Add padding inside each box */
+  box-sizing: border-box; /* Include padding in box size */
+  vertical-align: top; /* Align boxes at the top */
+  line-height:2; /*add space between lines*/
+}
+
+/* Additional styles for text and links */
+
+.box h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff; /* Set text color */
+}
+
+.box p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ffffff; /* Set text color */
+}
+
+.box a {
+  text-decoration: none;
+  color: #ffffff; /* Set link color */
+  font-weight: bold;
+}

@@ -1,0 +1,89 @@
+/* doctorforms.module.css */
+
+/* Container styling */
+.formContainer {
+  color: azure;
+  max-width: 600px; /* Wider container */
+  margin: 10px auto 0; /* Adjusted margin to account for navbar height */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(24, 77, 104, 0.8); /* Adjust the opacity (0.8 in this case) */
+  background: linear-gradient(135deg, rgba(24,78,104,0.8) 65%, rgba(87,202,133,1) 98%); /* Ensure gradient also has same opacity */
+}
+
+/* Navbar styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0; /* Adjusted padding */
+  z-index: 1000; /* Ensure navbar is above other content */
+}
+
+/* Heading styling */
+.formContainer h2 {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.formContainer label {
+  display: block;
+  margin-bottom: 10px; /* Increased spacing between labels */
+}
+
+/* Input field styling */
+.formContainer input[type="text"],
+.formContainer input[type="number"] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Specialty dropdown styling */
+.formContainer select {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Button styling */
+.formContainer button[type="submit"] {
+  background-color: #032952;
+  width: 250px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.formContainer button[type="submit"]:hover {
+  font-family: "Montserrat";
+  background-color: #0056b3;
+}
+
+.mybackground {
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  height: calc(100vh - 60px); /* Set height to fill the viewport minus the height of the navbar */
+  margin-top: 0; /* Remove any existing top margin */
+  padding-top: 60px; /* Add padding to compensate for the navbar height */
+  padding-bottom: 60px; /* Add padding to compensate for the footer height */
+  color: whitesmoke; /* Set text color to white */
+}
+
+.ppp {
+  color: black;
+  font-size: 30px;
+  font-family: 'Montserrat', 'Helvetica Neue';
+}
